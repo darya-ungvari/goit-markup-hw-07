@@ -68,6 +68,7 @@ a {
 
     &:focus {
         outline: 1px solid $accent-color;
+    }
 
         &:hover,
         &:focus {
@@ -75,10 +76,7 @@ a {
             color: $primary-white-color;
 
         }
-    }
 }
-
-
 
 .list {
     list-style: none;
