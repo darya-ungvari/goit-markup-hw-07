@@ -282,7 +282,7 @@ a {
  /* hero */
 
 
-.hero {
+/* .hero {
 
     text-align: center;
 }
@@ -316,7 +316,7 @@ a {
          url(../images/hero.jpg);
 
     background-position:  center;
-}
+} */
    
 .backdrop {
     position: fixed;
@@ -531,13 +531,11 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
-/* .close-button:focus {
-    outline:  var(--accent-color);
-} */
+
 
 /* Наши преимущества */
 
-.feauter .container {
+/* .feauter .container {
 
     padding-top: 94px;
     padding-bottom: 94px;
@@ -616,13 +614,13 @@ a {
 
     margin:0;
 
-}
+} */
 
 
 
 /* Чем мы занимаемся */
  
-.aboutus .container {
+/* .aboutus .container {
 
     padding-bottom: 94px;
     padding-top: 94px;
@@ -636,11 +634,11 @@ a {
     display: flex;
 }
 
-.aboutus-list .item + .item {
+.aboutus-list .aboutus-item + .aboutus-item {
 
     margin-left: 30px;
 }
-.aboutus-list .item {
+.aboutus-list .aboutus-item {
 
     width: calc((100% - 60px) / 3);
     text-align: center;  
@@ -687,11 +685,11 @@ a {
          rgba(47, 48, 58, 0.8));
          height: 70px;
     
-}
+} */
 
 /* Наша команда */
 
-.team {
+/* .team {
 
     background-color: #F5F4FA;
 }
@@ -730,7 +728,7 @@ a {
     padding-right: 31px; 
     justify-content: space-between; 
 
-}
+} */
 
 /* .socialmedia-item  {
 
@@ -739,7 +737,7 @@ a {
     
 } */
 
-.socialmedia-link {
+/* .socialmedia-link {
     fill: #AFB1B8;
 
     display: inline-block;
@@ -752,22 +750,20 @@ a {
     height: 44px;
 
     transition:  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.footer .socialmedia-link {
-    fill: var(--primary-white-color); 
-}
 
-.socialmedia-link:hover,
+
+/* .socialmedia-link:hover,
 .socialmedia-link:focus {
 
     fill: var(--primary-white-color);
-    background-color: var(--accent-color);
+    background-color: var(--accent-color); */
    
 }
 
 
-.team-card + .team-card {
+/* .team-card + .team-card {
 
     margin-left: 30px;
 }
@@ -812,12 +808,12 @@ a {
 
     margin-top: 0px;
     margin-bottom: 28px;
-}
+} */
 
 
 /* Постоянные клиенты */
 
-.clients .container {
+/* .clients .container {
 
     padding-top: 94px;
     padding-bottom: 94px;
@@ -884,10 +880,14 @@ a {
     margin-bottom: 50px;
     text-align: center;
 
-}
+} */
 
 
 /* футер */
+
+/* .footer .socialmedia-link {
+    fill: var(--primary-white-color); 
+}
 
 .footer {
 
@@ -1101,7 +1101,7 @@ a {
     color: rgba(255, 255, 255, 0.4);
     text-align: center;
 
-}
+} */
     
    
 

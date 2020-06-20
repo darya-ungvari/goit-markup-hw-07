@@ -83,3 +83,46 @@ a {
     padding: 0;
     margin: 0;
 }
+
+.vissually-hidden {
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.socialmedia.list {
+
+    display: flex; 
+    padding-bottom: 24px;
+    padding-left: 31px;
+    padding-right: 31px; 
+    justify-content: space-between; 
+
+}
+
+.socialmedia-link {
+    fill: #AFB1B8;
+
+    display: inline-block;
+    
+    padding: 12px 0;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+
+    transition:  fill $animation-timing-function;
+
+    &:hover,
+    &:focus {
+
+    fill: $primary-white-color;
+    background-color: $accent-color; 
+    }
+}

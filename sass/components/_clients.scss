@@ -1,0 +1,50 @@
+.clients .container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-list {
+    display: flex;
+}
+
+.clients-item {
+    display: block;
+    
+    text-align: center;
+    padding-top: 23px;   
+    width: 170px;
+    border: 1px solid #AFB1B8 ;
+    border-radius: 4px;
+    height: 90px;
+
+    .clients-list & + & {
+            margin-left: 30px;
+        }
+    &:hover,
+    &:focus {
+        border: 1px solid;
+    color: $accent-color;
+    }
+
+}
+
+.clients-svg {
+    width: calc((1200px - 150px) /6);
+    fill: #afb1b8;  
+    transition:  fill $animation-timing-function;
+
+    .clients-item:hover & {
+        fill: $accent-color;
+    }
+
+}
+
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+}
