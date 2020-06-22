@@ -5,8 +5,6 @@
     text-decoration: none;
     letter-spacing: 0.03em;
 
-    color: $title-text-color;
-
     &:focus {
         color: currentColor;  
     }
@@ -16,6 +14,10 @@
     }
 }
 
+.logo-header {
+    @extend .logo;
+    color: $title-text-color;
+}
 .logo-footer {
     @extend .logo;
     display: inline-block;

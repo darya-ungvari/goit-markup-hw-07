@@ -9,7 +9,7 @@ body {
 }
 
 /* button  все общие стили для всех кнопок*/
-.button, .button-footer {
+.button-primary, .button-footer, .button-submit {
   display: inline-block;
   text-decoration: none;
   font-size: 16px;
@@ -26,7 +26,7 @@ body {
   cursor: pointer;
 }
 
-.button:focus, .button-footer:focus {
+.button-primary:focus, .button-footer:focus, .button-submit:focus {
   outline: 1px solid #2196F3;
 }
 
@@ -40,6 +40,12 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.button-submit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .radio-button {
@@ -136,21 +142,24 @@ a {
   background-color: #2196F3;
 }
 
-.logo, .logo-footer {
+.logo, .logo-header, .logo-footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 
-.logo:focus, .logo-footer:focus {
+.logo:focus, .logo-header:focus, .logo-footer:focus {
   color: currentColor;
 }
 
 .logo-accent {
   color: #2196F3;
+}
+
+.logo-header {
+  color: #212121;
 }
 
 .logo-footer {
@@ -878,12 +887,6 @@ a {
 
 .close-button:focus .close-svg {
   fill: #2196F3;
-}
-
-.button.submit, .submit.button-footer {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .container.portfolio {
