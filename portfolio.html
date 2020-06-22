@@ -6,7 +6,7 @@
         <title>Portfolio</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css">
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/main.min.css">
     </head>
     <body>
         <header class="header-page">
@@ -58,7 +58,7 @@
                 </div>
                  <!-- карточки с категориями -->
                     <ul class="flex-container list">
-                        <li class="card item">
+                        <li class="card card-item">
                             <div class="card-overlay">
                                 <img class="category-image" src="./images/technokryak.jpg" alt="скрин вебсайта" width="370" height="294">
                                 <p class="description-overlay">
@@ -70,7 +70,7 @@
                                 <p class="category-name" >Веб-сайт</p>
                             </div>
                         </li>
-                        <li class="card item">
+                        <li class="card card-item">
                             <div class="card-overlay">
                                 <img class="category-image" src="./images/posterneworlean.jpg" alt="баскетболисты" width="370" height="294">
                                 <p class="description-overlay">
@@ -82,7 +82,7 @@
                                 <p class="category-name">Дизайн</p>
                             </div>
                         </li>
-                        <li class="card item">
+                        <li class="card card-item">
                             <div class="card-overlay">
                                 <img class="category-image" src="./images/restorantseafood.jpg" alt="лого ресторана" width="370" height="294">
                                 <p class="description-overlay">
@@ -94,7 +94,7 @@
                                 <p class="category-name">Приложение</p>
                             </div> 
                         </li>
-                        <li class="card item">
+                        <li class="card card-item">
                             <div class="card-overlay">
                                 <img class="category-image" src="./images/earpods.jpg" alt="наушники" width="370" height="294">
                                 <p class="description-overlay">
@@ -106,7 +106,7 @@
                                 <p class="category-name">Маркетинг</p>
                             </div>
                         </li>
-                        <li class="card item">
+                        <li class="card card-item">
                             <div class="card-overlay">
                                 <img class="category-image" src="./images/boxes.jpg" alt="коробки" width="370" height="294">
                                 <p class="description-overlay">
@@ -118,7 +118,7 @@
                                 <p class="category-name">Приложение</p> 
                             </div>
                         </li>
-                        <li class="card item">
+                        <li class="card card-item">
                             <div class="card-overlay">
                                 <img class="category-image" src="./images/tv.jpg" alt="телевизор" width="370" height="294">
                                 <p class="description-overlay">
@@ -130,7 +130,7 @@
                                 <p class="category-name">Веб-сайт</p>
                             </div>
                         </li>
-                        <li class="card item">
+                        <li class="card card-item">
                             <div class="card-overlay">
                                 <img class="category-image" src="./images/magazine.jpg" alt="журнал" width="370" height="294">
                                 <p class="description-overlay">
@@ -142,7 +142,7 @@
                                 <p class="category-name">Дизайн</p>
                             </div>
                         </li>
-                        <li class="card item">
+                        <li class="card card-item">
                             <div class="card-overlay">
                                 <img class="category-image" src="./images/projectlabel.jpg" alt="ярлык" width="370" height="294">
                                 <p class="description-overlay">
@@ -154,7 +154,7 @@
                                 <p class="category-name">Маркетинг</p>
                             </div>
                         </li>
-                        <li class="card item">
+                        <li class="card card-item">
                             <div class="card-overlay">
                                 <img class="category-image" src="./images/growingbusiness.jpg" alt="ноутбук" width="370" height="294">
                                 <p class="description-overlay">
@@ -178,9 +178,9 @@
                                  Studio 
                             </a>
                             <address class="address">
-                                <a class="adress-map link" href=""> г. Киев, пр-т Леси Украинки, 26 </a>
-                                 <a class="adress-mail link" href="mailto:info@devstudio.com">  info@devstudio.com </a>
-                                 <a class="adress-tel link" href="tel:+380961111111"> +38 096 111 11 11 </a>
+                                <a class="address-link main" href=""> г. Киев, пр-т Леси Украинки, 26 </a>
+                                 <a class="address-link" href="mailto:info@devstudio.com">  info@devstudio.com </a>
+                                 <a class="address-link" href="tel:+380961111111"> +38 096 111 11 11 </a>
                             </address>           
                         </div>
                         <!--Соц сети-->
@@ -222,12 +222,12 @@
                             <b class="follow-us-title">ПОДПИСАТЬСЯ НА РАССЫЛКУ</b> 
                             <!-- <input class="ur-email" type="text" name="first_name" placeholder="E-mail"> -->
                                 <form class="footer-form js-speaker-form">
-                                    <label class="form-field footer" for="email">  
-                                        <input class="form-input footer"
+                                    <label class="form-field footer">  
+                                        <input 
+                                        class="form-input footer"
                                         type="email" 
                                         name="email"
-                                        placeholder=" ">
-                                        <span class="form-label footer">Email</span>
+                                        placeholder="Email">
                                     </label>
                                     <button class="footer-button button" type="submit">
                                         Подписаться
