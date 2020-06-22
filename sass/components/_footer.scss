@@ -21,19 +21,6 @@
     width: 231px;  
 }
 
-.logo.footer {
-    display: inline-block;
-
-    font-size: 22px;
-    margin-bottom: 10px;
-
-    transition-property: color $animation-timing-function;
-    &:hover,
-    &:focus {
-        color: $accent-color;
-    }
-}
-
 .address-link {
     display: block;
 

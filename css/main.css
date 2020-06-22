@@ -124,7 +124,7 @@ a {
   background-color: #2196F3;
 }
 
-.logo {
+.logo, .logo-footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -133,12 +133,25 @@ a {
   color: #212121;
 }
 
-.logo:focus {
-  color: #2196F3;
+.logo:focus, .logo-footer:focus {
+  color: currentColor;
 }
 
 .logo-accent {
   color: #2196F3;
+}
+
+.logo-footer {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 22px;
+  margin-bottom: 10px;
+  -webkit-transition-property: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo-footer:focus {
+  color: currentColor;
 }
 
 .header-page {
@@ -515,18 +528,6 @@ a {
 
 .footer-adress {
   width: 231px;
-}
-
-.logo.footer {
-  display: inline-block;
-  font-size: 22px;
-  margin-bottom: 10px;
-  -webkit-transition-property: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.logo.footer:hover, .logo.footer:focus {
-  color: #2196F3;
 }
 
 .address-link {
