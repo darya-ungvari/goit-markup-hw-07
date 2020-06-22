@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 
-/* button  все общие стили для всех кнопок*/
+/*все общие стили для всех кнопок*/
 .button-primary, .button-footer, .button-submit {
   display: inline-block;
   text-decoration: none;
@@ -28,6 +28,19 @@ body {
 
 .button-primary:focus, .button-footer:focus, .button-submit:focus {
   outline: 1px solid #2196F3;
+}
+
+/* все общие стили для logo*/
+.logo-header, .logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+
+.logo-header:focus, .logo-footer:focus {
+  color: currentColor;
 }
 
 .button-footer {
@@ -140,18 +153,6 @@ a {
 .socialmedia-link:hover, .socialmedia-link:focus {
   fill: #FFFFFF;
   background-color: #2196F3;
-}
-
-.logo, .logo-header, .logo-footer {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  text-decoration: none;
-  letter-spacing: 0.03em;
-}
-
-.logo:focus, .logo-header:focus, .logo-footer:focus {
-  color: currentColor;
 }
 
 .logo-accent {

@@ -1,25 +1,13 @@
-.logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    text-decoration: none;
-    letter-spacing: 0.03em;
-
-    &:focus {
-        color: currentColor;  
-    }
-
-    &-accent {
-        color: $accent-color;
-    }
+.logo-accent {
+    color: $accent-color;
 }
 
 .logo-header {
-    @extend .logo;
+    @extend %logo;
     color: $title-text-color;
 }
 .logo-footer {
-    @extend .logo;
+    @extend %logo;
     display: inline-block;
     color: $primary-white-color;
     font-size: 22px;
