@@ -8,28 +8,8 @@ body {
   margin: 0;
 }
 
-h1 {
-  color: #FFFFFF;
-}
-
-h2, h3 {
-  color: #212121;
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1200px;
-}
-
-a {
-  cursor: pointer;
-}
-
 /* button  все общие стили для всех кнопок*/
-.button {
+.button, .button-footer {
   display: inline-block;
   text-decoration: none;
   font-size: 16px;
@@ -46,8 +26,20 @@ a {
   cursor: pointer;
 }
 
-.button:focus {
+.button:focus, .button-footer:focus {
   outline: 1px solid #2196F3;
+}
+
+.button-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding-left: 28px;
+  padding-right: 28px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .radio-button {
@@ -76,6 +68,26 @@ a {
 .radio-button:hover, .radio-button:focus {
   background-color: #2196F3;
   color: #FFFFFF;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+h2, h3 {
+  color: #212121;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+}
+
+a {
+  cursor: pointer;
 }
 
 .list {
@@ -630,18 +642,6 @@ a {
   margin-right: 8px;
 }
 
-.footer-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  padding-left: 28px;
-  padding-right: 28px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 .icon-send {
   position: absolute;
   top: 50%;
@@ -880,7 +880,7 @@ a {
   fill: #2196F3;
 }
 
-.button.submit {
+.button.submit, .submit.button-footer {
   display: block;
   margin-left: auto;
   margin-right: auto;

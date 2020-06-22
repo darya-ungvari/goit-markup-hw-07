@@ -1,0 +1,69 @@
+/* button  все общие стили для всех кнопок*/
+
+.button {
+    display: inline-block;
+    
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: $primary-white-color;
+
+    min-width: 200px;
+    height: 50px;
+    border: transparent;
+    border-radius: 4px;
+
+    background-color: $accent-color;
+
+    padding: 10px 28px; 
+    cursor: pointer;
+
+    &:focus {
+        outline: 1px solid $accent-color; 
+    }    
+}
+
+.button-footer {
+    @extend .button;
+    display: flex;
+    position: relative;
+    padding-left: 28px;
+    padding-right: 28px;
+    justify-content: space-between;
+}
+
+.radio-button {
+
+    display: inline-block;
+
+    background-color: #F5F4FA;
+
+    color: $title-text-color;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+
+    padding: 6px 22px;
+    min-width: 73px;
+    height: 38px;
+    border-radius: 4px;
+    border-color: transparent;
+    cursor: pointer;
+
+    transition:  background-color $animation-timing-function, color $animation-timing-function;
+
+    &:focus {
+        outline: 1px solid $accent-color;
+    }
+
+        &:hover,
+        &:focus {
+            background-color: $accent-color;
+            color: $primary-white-color;
+
+        }
+}
